@@ -1,3 +1,6 @@
+body {
+  
+}
 header {
     position: fixed;
     top: 0;
@@ -8,11 +11,13 @@ header {
     width: 100%;
     height: auto;
     flex-wrap: wrap;
-    background: linear-gradient(35deg, #CCFFEE, #bc60e0);
+    background: linear-gradient(35deg, #FFFFFF, #000000);
     justify-content: space-between;
+    box-shadow: 2px 2px 5px;
+  
 }
 #header-img{
-    width: 200px;
+    width: 180px;
     height: auto;
     border-radius: 80%;
     margin: 0;
@@ -26,7 +31,7 @@ header .nav-link {
   margin-right: 25px;
   font-size: 26px;
   text-decoration: none;
-  color: white
+  color: white;
 }
 a:hover {
   color: orange;
@@ -41,4 +46,18 @@ a:hover {
     width: 100%;
 
   }
+}
+
+#email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.email-child {
+  width: 30%;
+  background: #b7b7b7;
+  text-align: center;
+  padding-bottom: 40px;
 }
