@@ -52,7 +52,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 230px;
   margin-bottom: 60px;
 }
 .email-child {
@@ -60,4 +60,142 @@ a:hover {
   background: #b7b7b7;
   text-align: center;
   padding-bottom: 40px;
+}
+#purchasing-options {
+  display: flex;
+  flex-direction: row;
+  align-self: space-evenly;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 300px;
+  margin-bottom: 60px;
+}
+
+#two {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 12%;
+  box-shadow: 2px 2px 5px;
+  padding: 45px;
+  text-align: center;
+}
+#stinger {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 12%;
+  box-shadow: 2px 2px 5px;
+  padding: 45px;
+}
+#revolver {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 12%;
+  box-shadow: 2px 2px 5px;
+  padding: 45px;
+}
+#cloud-2 {
+  height: auto;
+  width: 150px;
+  
+}
+#cloud-stinger {
+  height: auto;
+  width: 150px;
+}
+#cloud-revolver {
+  height: auto;
+  width: 150px;
+}
+#keyboard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 550px;
+  background-image: url('https://media.kingston.com/hyperx/category/hx-family-keyboard-alloy-core-rgb-us-lg.jpg');
+  height: 600px;
+  color: white;
+}
+#keyboard-title {
+  font-family: 'Coiny', cursive;
+  font-size: 35px;
+  height: 20px;
+}
+#keyboard p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+  width: 380px;
+  text-align: center;
+}
+#keyboard-button {
+  width: 180px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(to top, #5ea9ff, #ddedff)
+}
+#mice {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 550px;
+  background-image: url('https://media.kingston.com/hyperx/key-features/hx-keyfeatures-mice-pulsefire-fps-pro-3-md.jpg');
+  height: 600px;
+  color: white;
+}
+#mice-title {
+  font-family: 'Coiny', cursive;
+  font-size: 35px;
+  height: 20px;
+}
+#mice p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+  width: 380px;
+  text-align: center;
+}
+#mice-button {
+  width: 180px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(to top, #5ea9ff, #ddedff)
+}
+#mousepad {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 550px;
+  background-image: url('https://prosettings.net/wp-content/uploads/2018/10/hyperxcover.jpg');
+  height: 600px;
+  font-color: white;
+}
+#mousepad-title {
+  font-family: 'Coiny', cursive;
+  font-size: 35px;
+  height: 20px;
+}
+#mousepad p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  margin-bottom: 25px;
+  width: 380px;
+  text-align: center;
+}
+#mousepad-button {
+  width: 180px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(to top, #5ea9ff, #ddedff)
 }
