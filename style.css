@@ -1,5 +1,5 @@
 body {
-  
+    background-image: radial-gradient(red, green, blue);
 }
 header {
     position: fixed;
@@ -48,19 +48,7 @@ a:hover {
   }
 }
 
-#email-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 230px;
-  margin-bottom: 60px;
-}
-.email-child {
-  width: 30%;
-  background: #b7b7b7;
-  text-align: center;
-  padding-bottom: 40px;
-}
+
 #purchasing-options {
   display: flex;
   flex-direction: row;
@@ -68,7 +56,9 @@ a:hover {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 300px;
-  margin-bottom: 60px;
+  margin-bottom: 160px;
+
+  
 }
 
 #two {
@@ -79,6 +69,11 @@ a:hover {
   box-shadow: 2px 2px 5px;
   padding: 45px;
   text-align: center;
+  background: white;
+}
+#two:hover {
+  cursor:pointer;
+  
 }
 #stinger {
   border-color: black;
@@ -87,6 +82,10 @@ a:hover {
   border-radius: 12%;
   box-shadow: 2px 2px 5px;
   padding: 45px;
+  background: white;
+}
+#stinger:hover {
+  cursor:pointer;
 }
 #revolver {
   border-color: black;
@@ -95,11 +94,14 @@ a:hover {
   border-radius: 12%;
   box-shadow: 2px 2px 5px;
   padding: 45px;
+  background: white;
+}
+#revolver:hover {
+  cursor:pointer;
 }
 #cloud-2 {
   height: auto;
   width: 150px;
-  
 }
 #cloud-stinger {
   height: auto;
@@ -145,8 +147,9 @@ a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-left: 550px;
+  padding-right: 550px;
   background-image: url('https://media.kingston.com/hyperx/key-features/hx-keyfeatures-mice-pulsefire-fps-pro-3-md.jpg');
+  background-repeat: round;
   height: 600px;
   color: white;
 }
@@ -177,13 +180,15 @@ a:hover {
   justify-content: center;
   padding-left: 550px;
   background-image: url('https://prosettings.net/wp-content/uploads/2018/10/hyperxcover.jpg');
+  background-repeat: round;
   height: 600px;
-  font-color: white;
+  color: white;
 }
 #mousepad-title {
   font-family: 'Coiny', cursive;
   font-size: 35px;
   height: 20px;
+  flex-wrap: wrap;
 }
 #mousepad p {
   font-family: 'Titillium Web', sans-serif;
@@ -191,11 +196,27 @@ a:hover {
   margin-bottom: 25px;
   width: 380px;
   text-align: center;
+  flex-wrap: wrap;
 }
 #mousepad-button {
   width: 180px;
   height: 60px;
   font-size: 25px;
   font-weight: bold;
+  flex-wrap: wrap;
   background: linear-gradient(to top, #5ea9ff, #ddedff)
+}
+#email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 230px;
+  margin-bottom: 60px;
+}
+.email-child {
+  width: 30%;
+  text-align: center;
+  padding-bottom: 40px;
+  color: white;
+  
 }
