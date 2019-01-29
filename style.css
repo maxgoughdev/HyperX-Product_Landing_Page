@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(red, green, blue);
+    background-image: radial-gradient(yellow, green, blue);
 }
 header {
     position: fixed;
@@ -44,7 +44,7 @@ a:hover {
   #video {
     max-width: 560px;
     width: 100%;
-
+    
   }
 }
 
@@ -55,9 +55,9 @@ a:hover {
   align-self: space-evenly;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 300px;
-  margin-bottom: 160px;
-
+  margin-top: 420px;
+  margin-bottom: 420px;
+  
   
 }
 
@@ -70,10 +70,12 @@ a:hover {
   padding: 45px;
   text-align: center;
   background: white;
+  
 }
 #two:hover {
   cursor:pointer;
-  
+  transform: scale(1.1);
+  transition: 200ms ease-in;
 }
 #stinger {
   border-color: black;
@@ -86,6 +88,8 @@ a:hover {
 }
 #stinger:hover {
   cursor:pointer;
+  transform: scale(1.1);
+  transition: 200ms ease-in;
 }
 #revolver {
   border-color: black;
@@ -98,6 +102,8 @@ a:hover {
 }
 #revolver:hover {
   cursor:pointer;
+  transform: scale(1.1);
+  transition: 200ms ease-in;
 }
 #cloud-2 {
   height: auto;
@@ -111,16 +117,18 @@ a:hover {
   height: auto;
   width: 150px;
 }
+
 #keyboard {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-left: 550px;
   background-image: url('https://media.kingston.com/hyperx/category/hx-family-keyboard-alloy-core-rgb-us-lg.jpg');
   height: 600px;
   color: white;
+  width: 100%;
+  outline: 8px solid white;
 }
 #keyboard-title {
   font-family: 'Coiny', cursive;
@@ -141,17 +149,23 @@ a:hover {
   font-weight: bold;
   background: linear-gradient(to top, #5ea9ff, #ddedff)
 }
+#keyboard-button:hover {
+  cursor: pointer;
+  background: #3d98ff;
+}
 #mice {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-right: 550px;
   background-image: url('https://media.kingston.com/hyperx/key-features/hx-keyfeatures-mice-pulsefire-fps-pro-3-md.jpg');
-  background-repeat: round;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 600px;
   color: white;
+  width: 100%;
+  outline: 8px solid white;
 }
 #mice-title {
   font-family: 'Coiny', cursive;
@@ -172,17 +186,30 @@ a:hover {
   font-weight: bold;
   background: linear-gradient(to top, #5ea9ff, #ddedff)
 }
+#mice-button:hover {
+  cursor: pointer;
+  background: #3d98ff;
+}
 #mousepad {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-left: 550px;
   background-image: url('https://prosettings.net/wp-content/uploads/2018/10/hyperxcover.jpg');
-  background-repeat: round;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 600px;
   color: white;
+  width: 100%;
+  outline: 8px solid white;
+}
+@media (max-width: 950px){
+  #other-products {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 #mousepad-title {
   font-family: 'Coiny', cursive;
@@ -206,11 +233,15 @@ a:hover {
   flex-wrap: wrap;
   background: linear-gradient(to top, #5ea9ff, #ddedff)
 }
+#mousepad-button:hover {
+  cursor: pointer;
+  background: #3d98ff;
+}
 #email-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 230px;
+  margin-top: 220px;
   margin-bottom: 60px;
 }
 .email-child {
@@ -219,4 +250,20 @@ a:hover {
   padding-bottom: 40px;
   color: white;
   
+}
+#submit {
+  margin-top: 20px;
+  padding: 10px;
+font-family: 'Bitter', serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+#email {
+  width: 50%;
+  height: 25px;
+}
+@media (max-width: 1000px) {
+  #keyboard {
+    align-self: flex-start;
+  }
 }
